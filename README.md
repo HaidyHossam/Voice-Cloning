@@ -16,4 +16,7 @@ Open model/output.wav to view output sample.
 python main.py -i  "This is a test to the model" -a samples/audio_0.wav -o  output4
 -i: Text input.
 -a: Input Sample Path.
--o: Output Path/Filename.
+-o: Output Path/Filename
+
+# Demo Video
+https://youtu.be/dynPcxqpwog
