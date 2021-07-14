@@ -2,9 +2,7 @@
 Android application that allows users to clone voices given any sample voice and text using Tacotron2
 # Samples
 Open 
-## Setup
-
-### 1. Install Requirements
+# Install Requirements
 
 **Python 3.6 or 3.7** 
 
@@ -15,7 +13,7 @@ Open
 
 # Usage
 
-python file_app\model\main.py -i  "This is a test to the model" -a file_app/model/samples/audio_0.wav -o  output4
+python main.py -i  "This is a test to the model" -a samples/audio_0.wav -o  output4
 -i: Text input
 -a: Input Sample Path
 -o: Output Path/Filename
